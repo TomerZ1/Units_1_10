@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#486BB9">
+
+	<TextView
+		android:text="How satisfied are you with the computer?"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="@android:color/white"
+		android:textSize="20sp"
+		android:id="@+id/textView1" />
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout1">
+		<SeekBar
+			android:layout_width="300dp"
+			android:layout_height="wrap_content"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:id="@+id/sb1" />
+		<TextView
+			android:text=""
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textColor="@android:color/white"
+			android:textSize="20sp"
+			android:id="@+id/tv1" />
+	</LinearLayout>
+	
+	<TextView
+		android:text="How satisfied are you with the service?"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="@android:color/white"
+		android:textSize="20sp"
+		android:id="@+id/textView2"
+		android:layout_marginTop="10dp"/>
+	
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout1">
+		<SeekBar
+			android:layout_width="300dp"
+			android:layout_height="wrap_content"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:id="@+id/sb2" />
+		<TextView
+			android:text=""
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textColor="@android:color/white"
+			android:textSize="20sp"
+			android:id="@+id/tv2" />
+	</LinearLayout>
+	
+	<Switch
+		android:layout_width="98.5dp"
+		android:layout_height="wrap_content"
+		android:id="@+id/sw"
+		android:layout_gravity="center"/>
+	
+	<Button
+		android:text="Go"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/btn" />
+	
+	
+
+
+
+
+</LinearLayout>
